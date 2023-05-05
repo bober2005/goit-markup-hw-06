@@ -131,13 +131,13 @@ body {
 
 .header-email:hover {
 	color: #404bbf;
-	
+
 }
 
 .btn:hover,
 .btn:focus {
 	background-color: #404bbf;
-	
+
 }
 
 
@@ -173,7 +173,7 @@ body {
 .footer-link:hover,
 .footer-link:focus {
 	background-color: #31d0aa;
-	
+
 
 }
 
@@ -211,7 +211,7 @@ body {
 .address-navigation:focus,
 .address-navigation:hover {
 	color: #404bbf;
-	
+
 }
 
 
@@ -221,7 +221,7 @@ body {
 .social-network-link:focus,
 .social-network-link:hover {
 	background-color: #404bbf;
-	
+
 }
 
 /* customers */
@@ -229,7 +229,7 @@ body {
 .customers-link:hover {
 	border-color: #404bbf;
 	color: #404bbf;
-	
+
 }
 
 /* footer  */
@@ -971,7 +971,7 @@ body {
 .section-portfolio-link {
 	position: relative;
 	overflow: hidden;
-	transition:box-shadow 250ms;
+	transition: box-shadow 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -983,15 +983,94 @@ body {
 }
 
 .iteams:hover,
-.iteams:focus{
+.iteams:focus {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 /* footer */
 .portfolio-footer {
 	background-color: #2E2F42;
 	padding: 100px 0;
 }
 
+
+.form {
+	display: flex;
+}
+
+.form-btn {
+	margin-left: 80px;
+
+}
+
+.txt-form {
+	display: flex;
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+
+	margin-bottom: 16px;
+}
+
+.form-btn-footer {
+	position: relative;
+
+	color: #FFFFFF;
+	height: 40px;
+	width: 165px;
+	background-color: #4D5AE5;
+	border-radius: 4px;
+
+
+	align-items: center;
+	text-align: center;
+	margin-left: 24px;
+	padding-left: 24px;
+	padding-right: 64px;
+
+
+
+
+	transition: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-btn-footer:hover,
+.form-btn-footer:focus {
+	background-color: #404BBF;
+}
+
+.form-svg {
+	position: absolute;
+	margin-left: 16px;
+	text-align: center;
+}
+
+.label-footer {}
+
+.input-footer {
+	width: 264px;
+	height: 40px;
+	padding: 16px 8px;
+
+
+	border: 1px solid #FFFFFF;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	background-color: transparent;
+	color: #FFFFFF;
+
+}
+
+.input-footer::placeholder {
+	color: #FFFFFF;
+	opacity: 1;
+
+}
 
 /* logo portfolio footer */
 
@@ -1029,7 +1108,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #F4F4FD;
 	width: 264px;
@@ -1090,3 +1169,103 @@ body {
 	fill: #ffffff;
 }
 
+
+
+
+.modal-form {}
+
+.titel-modal {
+	margin-bottom: 16px;
+	margin-left: 24px;
+
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.02em;
+
+	color: #2E2F42;
+}
+
+.modal-label {
+	margin-left: 24px;
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.04em;
+
+	color: #8E8F99;
+
+}
+
+.modal-label-list {
+	display: flex;
+	margin-left: 24px;
+
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+
+
+	color: #8E8F99;
+
+}
+
+.textarea {
+	margin-left: 24px;
+	width: 360px;
+	height: 120px;
+	border: 1px solid rgba(46, 47, 66, 0.4);
+	border-radius: 4px;
+}
+
+.form-one {}
+
+.inpunt-modal {
+	margin-bottom: 8px;
+	margin-left: 24px;
+	width: 360px;
+	height: 40px;
+
+	border: 1px solid rgba(46, 47, 66, 0.4);
+	border-radius: 4px;
+}
+
+.inpunt-modal-list {
+	margin-left: 24px;
+	width: 360px;
+	height: 120px;
+
+	border: 1px solid rgba(46, 47, 66, 0.4);
+	border-radius: 4px;
+}
+
+.form-two {}
+
+.form-three {}
+
+.form-four {}
+
+.modal-label-end {
+	display: flex;
+	margin-left: 24px;
+}
+
+.under-paragraph {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.04em;
+
+
+	color: #8E8F99;
+}
+
+.modal-link {}

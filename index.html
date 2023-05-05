@@ -36,8 +36,7 @@
                     <li class="header-item-addres link"><a class="header-email link "
                             href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li class="header-item-addres link"><a class="header-email link " href="tel:+110001111111">+11
-                            (000)
-                            111-11-11</a></li>
+                            (000)111-11-11</a></li>
                 </ul>
             </address>
 
@@ -419,6 +418,22 @@
                 </ul>
             </div>
 
+            <div class="form-btn">
+                <p class="txt-form">Subscribe</p>
+                <form class="form" action="">
+                    <label class="label-footer" for="form-footer"></label>
+                    <input class="input-footer" type="email" name="user" placeholder="E-mail" id="form-footer">
+                    <button class="form-btn-footer" type="submit">Subscribe
+                        <svg class="form-svg" width="24" height="20">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg>
+
+                    </button>
+                </form>
+
+            </div>
+
+
         </div>
     </footer>
 
@@ -429,10 +444,60 @@
         <div class="modal">
 
             <button type="button" class="modal-btn" data-modal-close>
-                    <svg class="modal-icon" width="8" height="8">
-                        <use href="./images/icons.svg#icon-close-black"></use>
-                    </svg>
+                <svg class="modal-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
             </button>
+            <div class="modal-form">
+                
+                <form class="" action="">
+                    <strong class="titel-modal">Leave your contacts and we will call you back</strong>
+
+
+                    <label class="modal-label" for="name">Name</label>
+
+                    <div class="form-one">
+                        <input class="inpunt-modal" type="text" name="name" placeholder="Name" id="name">
+                        <svg class="./images/icons.svg#icon-person-black" width="12" height="12">
+                            <use href=""></use>
+                        </svg>
+                    </div>
+
+                    <label class="modal-label" for="phone">Phone</label>
+
+                    <div class="form-two">
+                        <input class="inpunt-modal" type="tel" name="phone" placeholder="Phone" id="phone">
+                        <svg class="" width="13" height="13">
+                            <use href=""></use>
+                        </svg>
+                    </div>
+
+                    <label class="modal-label" for="email">Email</label>
+
+                    <div class="form-three">
+                        <input class="inpunt-modal" type="email" name="email" placeholder="E-mail" id="email">
+                        <svg class="" width="15" height="12">
+                            <use href=""></use>
+                        </svg>
+                    </div>
+
+                    <label class="modal-label-list" for="comment">Comment</label>
+                    <textarea class="textarea" name="Comment" id="comment" rows="5" placeholder="Text input"></textarea>
+
+                    <label class="modal-label-end">
+                        <input type="checkbox" name="checkbox" id="">
+                        <span class="under-paragraph"> I accept the terms and conditions of the<a href="">Privacy
+                                Policy</a></span>
+                    </label>
+                    <button class="madal-btn" type="submit">Send</button>
+                </form>
+
+
+            </div>
+
+
+
+
         </div>
     </div>
 
