@@ -1172,11 +1172,18 @@ body {
 
 
 
-.modal-form {}
+.modal-form {
+	margin-left: 24px;
+}
+
+.one-label {
+	margin-top: 16px;
+
+}
 
 .titel-modal {
-	margin-bottom: 16px;
-	margin-left: 24px;
+	/* margin-bottom: 16px; */
+	/* margin-left: 24px; */
 
 	font-style: normal;
 	font-weight: 500;
@@ -1189,7 +1196,8 @@ body {
 }
 
 .modal-label {
-	margin-left: 24px;
+	display: flex;
+	/* margin-left: 24px; */
 
 	font-style: normal;
 	font-weight: 400;
@@ -1203,7 +1211,7 @@ body {
 
 .modal-label-list {
 	display: flex;
-	margin-left: 24px;
+	/* margin-left: 24px; */
 
 
 	font-style: normal;
@@ -1218,18 +1226,21 @@ body {
 }
 
 .textarea {
-	margin-left: 24px;
+	/* margin-left: 24px; */
 	width: 360px;
 	height: 120px;
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	border-radius: 4px;
 }
 
-.form-one {}
+.form-one {
+	/* margin-bottom: 26px; */
+margin-top: 26px;
+}
 
 .inpunt-modal {
-	margin-bottom: 8px;
-	margin-left: 24px;
+	/* margin-bottom: 8px; */
+	/* margin-left: 24px; */
 	width: 360px;
 	height: 40px;
 
@@ -1238,7 +1249,7 @@ body {
 }
 
 .inpunt-modal-list {
-	margin-left: 24px;
+	/* margin-left: 24px; */
 	width: 360px;
 	height: 120px;
 
@@ -1254,7 +1265,7 @@ body {
 
 .modal-label-end {
 	display: flex;
-	margin-left: 24px;
+	/* margin-left: 24px; */
 }
 
 .under-paragraph {
