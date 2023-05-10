@@ -361,7 +361,7 @@
                     <li class="customers-iteam">
                         <a class="customers-link" href="">
                             <svg class="five-section" width="104" height="56">
-                                <use href="./images/icons.svg#icon-Logo6"></use>
+                                <use href="./images/icons.svg#icon-client6"></use>
                             </svg>
                         </a>
                     </li>
@@ -421,8 +421,7 @@
             <div class="form-btn">
                 <p class="txt-form">Subscribe</p>
                 <form class="form" action="">
-                    <label class="label-footer" for="form-footer"></label>
-                    <input class="input-footer" type="email" name="user" placeholder="E-mail" id="form-footer">
+                    <input class="input-footer" type="email" name="user" placeholder="E-mail" aria-label="email" id="form-footer">
                     <button class="form-btn-footer" type="submit">Subscribe
                         <svg class="form-svg" width="24" height="20">
                             <use href="./images/icons.svg#icon-icon-send"></use>
@@ -443,12 +442,8 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
 
-            <button type="button" class="modal-btn" data-modal-close>
-                <svg class="modal-icon" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close-black"></use>
-                </svg>
-            </button>
-            <div class="modal-form">
+
+        
 
                 <form class="" action="">
                     <strong class="titel-modal">Leave your contacts and we will call you back</strong>
@@ -486,23 +481,21 @@
 
                     <label class="modal-label-list" for="comment">Comment</label>
                     <textarea class="textarea" name="Comment" id="comment" rows="5" placeholder="Text input"></textarea>
-                    
-                        <label class="modal-label-end">
-                            <input class="checkbox" type="checkbox" name="checkbox" id="">
-                            <span class="under-paragraph"> I accept the terms and conditions of the<a
-                                    class="modal-end-link" href="">Privacy
-                                    Policy</a></span>
-                        </label>
-                    
+
+                    <label class="modal-label-end">
+                        <input class="checkbox" type="checkbox" name="checkbox" id="">
+                        <span class="under-paragraph"> I accept the terms and conditions of the<a class="modal-end-link"
+                                href="">Privacy
+                                Policy</a></span>
+                    </label>
+
                     <button class="madal-btn" type="submit">Send</button>
+                    <button type="button" class="modal-btn" data-modal-close>
+                        <svg class="modal-icon" width="8" height="8">
+                            <use href="./images/icons.svg#icon-close-black"></use>
+                        </svg>
+                    </button>
                 </form>
-
-
-            </div>
-
-
-
-
         </div>
     </div>
 
